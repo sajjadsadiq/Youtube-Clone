@@ -1,0 +1,25 @@
+.mainContent{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.icon{
+    color: #606060;
+    font-size: large;
+}
+.title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+.mainContent:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.mainContent:hover > .icon {
+    color: rgb(233, 14, 14);
+}

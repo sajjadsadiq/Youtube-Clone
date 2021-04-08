@@ -1,0 +1,19 @@
+.video{
+    width: 270px;
+    margin-bottom: 50px;
+}
+.videoThumble{
+    width: 250px;
+    height: 140px;
+}
+.videoCardInfo{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.videoinfo {
+    margin-left: 10px;
+}
+.videoinfo > p{
+    color: rgb(76, 76, 76);
+}

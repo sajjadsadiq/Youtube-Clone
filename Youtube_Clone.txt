@@ -1,0 +1,8 @@
+Project Setup:
+--------------
+01. HTML - JSX
+02. CSS - FlexBox(Responsive)
+03. React Router - Page Dynamic(Page Linking)
+04. Firebase - Live Hosting
+05. Node.js
+06. Material UI - Icons

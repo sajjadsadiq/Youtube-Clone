@@ -1,0 +1,48 @@
+/* Main Header */
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+/* Header Left - Logo */
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.logoImg{
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: -22px;
+    
+}
+/* Header Center - Search Input*/
+.HeaderCenter{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid silver;
+}
+.HeaderCenter > input{
+    flex: 1;
+    border: none;
+    padding: 5px;
+}
+.SearchInputIcon{
+    width: 40px !important;
+    background-color: rgb(233, 233, 233);
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+/* Header Right - Profile Section */
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.ProfileIcons{
+    margin-right: 10px;
+}
